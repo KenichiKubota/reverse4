@@ -63,8 +63,6 @@ MyCell.prototype.clickTemp = function () {
         return;
     }
 
-    tempSelected = this;
-
     var allFiltered = this.getAllFiltered();
 
     if (allFiltered.length > 0) {
@@ -82,6 +80,8 @@ MyCell.prototype.clickTemp = function () {
             }
             myCell.show();
         });
+
+        tempSelected = this;
 
         this.styleClass.push('deleteArea');
 
