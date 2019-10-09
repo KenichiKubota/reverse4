@@ -1,0 +1,61 @@
+
+body {
+  font-family: Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
+
+.table1 {
+    border-collapse: collapse;
+    border: 2px solid #999;
+}
+
+.table1 td {
+    border: 1px solid #999;
+    background: whitesmoke;
+    width: 36px;
+    height: 36px;
+    padding:0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table1 td:hover {
+    /* background: rgb(165, 204, 102); */
+    cursor: pointer
+}
+
+  /* .cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+} */
+/* .cp_iptxt input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100px;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #201e1e;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+.ef input[type='text']:focus {
+	border: 1px solid #19cae9;
+	outline: none;
+	box-shadow: 0 0 5px 1px #1962e9;
+} */
+
+.deleteArea{
+  background:rgb(119, 223, 255) !important;
+  cursor:auto !important;
+}
+
+.putArea{
+  background:rgb(209, 235, 243) !important;
+  cursor: pointer !important;
+}
+
+.defaultArea{
+  background:whitesmoke;
+  cursor:auto !important;;
+}
